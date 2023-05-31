@@ -8,7 +8,7 @@ const Nav = () => {
       <Container>
         <ul className="justify-center gap-24 lg:flex">
           {navItems.map((link, idx) => (
-            <NavLink text={link.text} link={link.link} />
+            <NavLink key={idx} text={link.text} link={link.link} />
           ))}
         </ul>
       </Container>
