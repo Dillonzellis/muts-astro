@@ -1,11 +1,12 @@
-import Nav from "./Nav";
+import MainBar from "./MainBar";
+import Nav from "./nav/Nav";
 import TopBar from "./TopBar";
 
 const Header = () => {
   return (
     <header>
       <TopBar />
-      <div>Header component</div>
+      <MainBar />
       <Nav />
     </header>
   );
