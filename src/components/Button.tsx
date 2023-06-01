@@ -6,7 +6,7 @@ interface ButtonProps {
   className?: string;
 }
 
-const Button = ({ btnText, link, className }: ButtonProps) => {
+const Button = ({ btnText, link, className = "" }: ButtonProps) => {
   return (
     <div
       className={`${className} inline-flex cursor-pointer items-center gap-1 bg-brandingGreen-400 px-8 py-3 capitalize text-white`}>
@@ -14,7 +14,7 @@ const Button = ({ btnText, link, className }: ButtonProps) => {
         <a href={link}>{btnText}</a>
       </div>
       <div>
-        <ArrowRightIcon className="w-5 h-5" />
+        <ArrowRightIcon className="h-5 w-5" />
       </div>
     </div>
   );

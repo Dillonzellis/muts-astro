@@ -1,17 +1,16 @@
 ---
+import Hero from "../components/home/Hero";
+import JoinCTA from "../components/home/JoinCTA";
+import CardsCTA from "../components/home/cardsCTA/CardsCTA";
+import ServicesCTA from "../components/home/services/ServicesCTA";
 import Layout from "../layouts/Layout.astro";
-
-import Hero from "./home/Hero";
-import JoinCTA from "./home/JoinCTA";
-import CardsCTA from "./home/cardsCTA/CardsCTA";
-import ServicesCTA from "./home/services/ServicesCTA";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-  <Hero />
-  <CardsCTA />
-  <JoinCTA />
-  <ServicesCTA />
+    <Hero />
+    <CardsCTA />
+    <JoinCTA />
+    <ServicesCTA />
   </main>
 </Layout>

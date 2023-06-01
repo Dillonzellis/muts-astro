@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../../components/Button";
 import Container from "../../components/layout/Container";
 
@@ -21,11 +20,18 @@ const Hero = () => {
         </div>
       </Container>
       <img
-        className="w-full object-cover"
-        src="http://dev2.growthbydesign.org/wp-content/uploads/home-hero-plane.jpg"
+        className="h-[750px] w-full object-cover"
+        src="http://dev2.growthbydesign.org/wp-content/uploads/BG.jpg"
         alt="hero img"
         width={1920}
-        height={1080}
+        height={750}
+      />
+      <img
+        className="absolute bottom-0 w-full object-cover"
+        src="http://dev2.growthbydesign.org/wp-content/uploads/Waves.png"
+        alt=""
+        width={1920}
+        height={200}
       />
     </section>
   );
