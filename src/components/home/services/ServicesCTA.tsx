@@ -7,16 +7,29 @@ const ServicesCTA = () => {
   return (
     <ContentSection>
       <Container>
-        <div className="flex justify-center gap-12">
-          <div>Img</div>
+        <div className="grid grid-cols-2 items-center">
           <div>
+            <img
+              src="http://dev2.growthbydesign.org/wp-content/uploads/Left.png"
+              alt=""
+              height={470}
+              width={470}
+            />
+          </div>
+          <div className="flex flex-col gap-8">
             <div>
-              Check out some of the FREE Services MSCU offers its members today!
+              <div className="mb-4 text-3xl text-brandingBlue-400">
+                Check out some of the FREE Services MSCU offers its members
+                today!
+              </div>
+              <hr className="w-28 border-2 border-brandingGreen-400" />
             </div>
-            <CheckItem />
-            <CheckItem />
-            <CheckItem />
-            <Button btnText="apply today" link="#" />
+            <div className="flex flex-col gap-4">
+              <CheckItem />
+              <CheckItem />
+              <CheckItem />
+            </div>
+            <Button btnText="apply today" link="#" className="self-start" />
           </div>
         </div>
       </Container>
