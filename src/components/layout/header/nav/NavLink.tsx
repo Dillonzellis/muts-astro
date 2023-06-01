@@ -5,7 +5,7 @@ interface NavLinkProps {
 
 const NavLink = ({ text, link }: NavLinkProps) => {
   return (
-    <li className="text-lg capitalize text-white">
+    <li className="text-lg font-light capitalize text-white">
       <a href={`/${link}`}>{text}</a>
     </li>
   );

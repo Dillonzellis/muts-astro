@@ -9,13 +9,15 @@ const TopBar = () => {
           <div className="flex gap-4">
             <PhoneIcon className="h-6 w-6 text-brandingGreen-400" />
             <div>
-              <a href="tel:+18007716695">(800)-771-6695</a>
+              <a href="tel:+18007716695" className="text-sm">
+                (800)-771-6695
+              </a>
             </div>
           </div>
           <div className="flex gap-4">
             <EnvelopeIcon className="h-6 w-6 text-brandingGreen-400" />
             <div>
-              <a href="mailto:+18007716695">
+              <a href="mailto:+18007716695" className="text-sm">
                 mutualsavingscu@mutualsavingscu.org
               </a>
             </div>
