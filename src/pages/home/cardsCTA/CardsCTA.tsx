@@ -1,9 +1,8 @@
-import React from "react";
 import CardDeck from "./CardDeck";
 
 const CardsCTA = () => {
   return (
-    <section className="relative">
+    <section className="relative pb-20">
       <h2 className="absolute left-1/2 top-20 max-w-3xl -translate-x-1/2 text-center text-3xl font-bold text-white">
         We're a leading provider of short-term and long-term needs for all of
         our members
