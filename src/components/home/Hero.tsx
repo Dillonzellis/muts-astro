@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="relative">
       <Container>
-        <div className="absolute top-1/4">
+        <div className="absolute top-[20%]">
           <div className="flex max-w-prose flex-col gap-8 text-white">
             <h1 className="text-6xl font-bold">
               We'll help you pay for that trip to Paradise
