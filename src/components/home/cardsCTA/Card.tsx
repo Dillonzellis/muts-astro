@@ -12,7 +12,7 @@ const Card = ({
   cardLink = "#",
 }: CardProps) => {
   return (
-    <div className="inline-flex h-[316px] rounded-3xl border border-slate-100 bg-white p-4 text-black shadow-md">
+    <div className="inline-flex h-[316px] rounded-3xl border border-slate-100 bg-white p-4 text-black shadow-xl">
       <div className="flex flex-col items-center justify-center gap-4">
         <img
           width={70}
