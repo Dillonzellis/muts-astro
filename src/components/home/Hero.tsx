@@ -7,7 +7,7 @@ const Hero = () => {
       <Container>
         <div className="absolute top-[20%]">
           <div className="flex max-w-prose flex-col gap-8 text-white">
-            <h1 className="text-6xl font-bold">
+            <h1 className="text-6xl font-bold text-white">
               We'll help you pay for that trip to Paradise
             </h1>
             <p>
