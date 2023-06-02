@@ -5,7 +5,7 @@ const MainBar = () => {
   return (
     <div className="bg-white py-2">
       <Container>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-4">
           <a href="#">
             <img
               src="http://dev2.growthbydesign.org/wp-content/uploads/Logo.png"

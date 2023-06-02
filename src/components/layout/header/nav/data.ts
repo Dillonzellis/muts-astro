@@ -5,10 +5,6 @@ interface NavItem {
 
 export const navItems: NavItem[] = [
   {
-    text: "home",
-    link: "/",
-  },
-  {
     text: "accounts",
     link: "accounts",
   },
