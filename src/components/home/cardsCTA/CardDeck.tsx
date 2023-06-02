@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const CardDeck = () => {
   return (
-    <div className="absolute left-[40%] top-1/4 grid max-w-[800px] grid-cols-2 gap-6">
+    <div className="mx-auto mt-4 lg:mt-0 lg:absolute left-[40%] top-1/4 grid max-w-[800px] lg:grid-cols-2 gap-6">
       <Card
         icon="http://dev2.growthbydesign.org/wp-content/uploads/loans-icon.png"
         title="loan application"
