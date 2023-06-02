@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         brandingBlue: {
           400: "#005397",
+          300: "#3695e2",
         },
         brandingGreen: {
           400: "#69b338",
