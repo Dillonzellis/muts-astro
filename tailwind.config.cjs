@@ -13,6 +13,9 @@ module.exports = {
         brandingGreen: {
           400: "#69b338",
         },
+        brandingGrey: {
+          700: "#202020",
+        },
       },
     },
   },
