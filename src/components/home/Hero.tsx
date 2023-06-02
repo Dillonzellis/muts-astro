@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <section className="relative">
       <Container>
-        <div className="absolute top-[20%]">
+        <div className="absolute top-1/2 -translate-y-[70%]">
           <div className="flex max-w-prose flex-col gap-8 text-white">
-            <h1 className="text-6xl font-bold text-white">
+            <h1 className="text-3xl md:text-6xl font-bold text-white">
               We'll help you pay for that trip to Paradise
             </h1>
             <p>
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </Container>
       <img
-        className="h-[750px] w-full object-cover"
+        className="h-[500px] md:h-[750px] w-full object-cover"
         src="http://dev2.growthbydesign.org/wp-content/uploads/BG.jpg"
         alt="hero img"
         width={1920}
