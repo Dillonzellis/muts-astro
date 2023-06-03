@@ -3,11 +3,11 @@ import ContentSection from "../../components/layout/ContentSection";
 
 const JoinCTA = () => {
   return (
-    <ContentSection className="py-24">
+    <ContentSection className="py-20 lg:pt-[20rem] xl:pt-[18rem]">
       <Container>
         <div className="flex justify-center">
-          <div className="flex max-w-prose flex-col gap-4 lg:gap-6 text-center">
-            <div className="text-2xl lg:text-4xl text-brandingBlue-400 font-bold">
+          <div className="flex max-w-prose flex-col gap-3 lg:gap-6 text-center">
+            <div className="text-2xl md:text-3xl lg:text-4xl text-brandingBlue-400 font-bold">
               Learn how to join MSCU today!
             </div>
             <div className="text-lg">
