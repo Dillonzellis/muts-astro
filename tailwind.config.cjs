@@ -18,6 +18,9 @@ module.exports = {
           700: "#202020",
         },
       },
+      screens: {
+        max: "2400px",
+      },
     },
   },
   plugins: [],

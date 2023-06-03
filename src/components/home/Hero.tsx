@@ -3,7 +3,7 @@ import Container from "../../components/layout/Container";
 
 const Hero = () => {
   return (
-    <section className="relative">
+    <section className="relative max:mb-8">
       <Container>
         <div className="absolute top-1/2 -translate-y-[70%]">
           <div className="flex max-w-prose flex-col gap-8 text-white">
@@ -27,7 +27,7 @@ const Hero = () => {
         height={750}
       />
       <img
-        className="absolute bottom-0 w-full object-cover"
+        className="absolute bottom-0 w-full object-cover max:hidden"
         src="http://dev2.growthbydesign.org/wp-content/uploads/Waves.png"
         alt=""
         width={1920}

@@ -3,7 +3,7 @@ import CardDeck from "./CardDeck";
 
 const CardsCTA = () => {
   return (
-    <section className="relative pb-20">
+    <section className="relative max-w-[1180px] mx-auto">
       <div className="relative">
         <Container>
           <h2 className="text-xl absolute top-1/2 left-1/2 lg:top-20 max-w-3xl -translate-y-1/2 -translate-x-1/2 text-center md:text-3xl font-bold text-white">
