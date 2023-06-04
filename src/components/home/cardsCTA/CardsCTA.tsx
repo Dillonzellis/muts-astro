@@ -3,10 +3,10 @@ import CardDeck from "./CardDeck";
 
 const CardsCTA = () => {
   return (
-    <section className="relative max-w-[1180px] mx-auto">
+    <section className="relative mx-auto max-w-[1800px]">
       <div className="relative">
         <Container>
-          <h2 className="text-xl absolute top-1/2 left-1/2 lg:top-20 max-w-3xl -translate-y-1/2 -translate-x-1/2 text-center md:text-3xl font-bold text-white">
+          <h2 className="absolute left-1/2 top-1/2 max-w-3xl -translate-x-1/2 -translate-y-1/2 text-center text-xl font-bold text-white md:text-3xl lg:top-20">
             We're a leading provider of short-term and long-term needs for all
             of our members
           </h2>
