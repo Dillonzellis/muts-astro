@@ -3,7 +3,7 @@ import ContentSection from "../../components/layout/ContentSection";
 
 const JoinCTA = () => {
   return (
-    <ContentSection className="pt-24 lg:pt-[20rem] xl:pt-[18rem]">
+    <ContentSection className="pt-24 lg:pt-[20rem] xl:pt-[18rem] 2xl:pt-32">
       <Container>
         <div className="flex justify-center">
           <div className="flex max-w-prose flex-col gap-3 lg:gap-6 text-center">
