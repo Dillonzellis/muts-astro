@@ -5,20 +5,20 @@ import ColHeader from "./ColHeader";
 import Col from "./Col";
 import ColLink from "./ColLink";
 import CopyFooter from "./CopyFooter";
-import { disclosures, forms } from "./data";
+import { usefulLinks } from "./data";
 
 const Footer = () => {
   return (
     <footer className="bg-brandingGrey-700 text-white">
       <Container>
-        <div className="py-4 grid grid-cols-4 gap-4">
+        <div className="py-12 grid md:grid-cols-3 md:gap-4 gap-12">
           <Col>
             <ColHeader title="contact us" />
-            <div>
+            <div className="md:mb-6 mb-4">
               <div>10 Peachtree Place, NE</div>
               <div>Atlanta, GA 30309</div>
             </div>
-            <div>
+            <div className="">
               <div>
                 Phone: <a href="tel:+18007716695">(800) 771-6695</a>
               </div>
@@ -30,20 +30,11 @@ const Footer = () => {
               </div>
             </div>
           </Col>
+
           <Col>
-            <ColHeader title="disclosures" />
-            {disclosures.map((disclosure, id) => (
-              <ColLink
-                key={id}
-                href={disclosure.href}
-                linkText={disclosure.linkText}
-              />
-            ))}
-          </Col>
-          <Col>
-            <ColHeader title="forms" />
-            {forms.map((form, id) => (
-              <ColLink key={id} href={form.href} linkText={form.linkText} />
+            <ColHeader title="useful links" />
+            {usefulLinks.map((link, id) => (
+              <ColLink key={id} href={link.href} linkText={link.linkText} />
             ))}
           </Col>
           <Col>

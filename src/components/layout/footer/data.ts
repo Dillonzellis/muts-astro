@@ -107,3 +107,30 @@ export const forms = [
     href: "#",
   },
 ];
+
+export const usefulLinks = [
+  {
+    linkText: "ATM Locator",
+    href: "#",
+  },
+  {
+    linkText: "Current News",
+    href: "#",
+  },
+  {
+    linkText: "Disclosures",
+    href: "#",
+  },
+  {
+    linkText: "Forms",
+    href: "#",
+  },
+  {
+    linkText: "Privacy Policy",
+    href: "#",
+  },
+  {
+    linkText: "Contact Us",
+    href: "#",
+  },
+];
