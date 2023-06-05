@@ -4,6 +4,7 @@ import ColHeader from "./ColHeader";
 
 import Col from "./Col";
 import ColLink from "./ColLink";
+import CopyFooter from "./CopyFooter";
 import { disclosures, forms } from "./data";
 
 const Footer = () => {
@@ -50,6 +51,7 @@ const Footer = () => {
             <div>Equal house lender logo</div>
           </Col>
         </div>
+        <CopyFooter />
       </Container>
     </footer>
   );
