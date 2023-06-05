@@ -14,7 +14,11 @@ const MainBar = () => {
               height={65}
             />
           </a>
-          <Button btnText="LOGIN" link="#" className="font-bold" />
+          <Button
+            btnText="LOGIN"
+            link="#"
+            className="font-bold hidden md:flex"
+          />
         </div>
       </Container>
     </div>

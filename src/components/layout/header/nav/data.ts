@@ -1,9 +1,15 @@
-interface NavItem {
+export type NavItem = {
   text: string;
   link: string;
-}
+  className?: string | null;
+};
 
 export const navItems: NavItem[] = [
+  {
+    text: "login",
+    link: "#",
+    className: "md:hidden",
+  },
   {
     text: "accounts",
     link: "accounts",
