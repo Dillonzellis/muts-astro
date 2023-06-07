@@ -1,7 +1,15 @@
+import { Bars3Icon } from "@heroicons/react/24/solid";
+import { useState } from "react";
 import Button from "../../Button";
 import Container from "../Container";
 
 const MainBar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
+  const handleMenuClick = () => {
+    console.log("clicked");
+  };
+
   return (
     <div className="bg-white py-2">
       <Container>
@@ -14,10 +22,14 @@ const MainBar = () => {
               height={65}
             />
           </a>
+          <Bars3Icon
+            onClick={handleMenuClick}
+            className="h-10 w-10 text-brandingBlue-400 md:hidden"
+          />
           <Button
             btnText="LOGIN"
             link="#"
-            className="font-bold hidden md:flex"
+            className="hidden font-bold md:flex"
           />
         </div>
       </Container>
